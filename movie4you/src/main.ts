@@ -1076,6 +1076,7 @@ const allPossibleGenres = [
   "History",
   "Horror",
   "Music",
+  "Musical",
   "Mystery",
   "Sci-Fi",
   "Sport",
@@ -1097,7 +1098,7 @@ function populateGenreFilter(movies: MovieTypes[]) {
   // Option für "Alle Genres" hinzufügen
   const allOption = document.createElement("option");
   allOption.value = "all";
-  allOption.textContent = "Alle Genres";
+  allOption.textContent = "All Genres";
   genreFilter.appendChild(allOption);
   console.log(allOption);
 
