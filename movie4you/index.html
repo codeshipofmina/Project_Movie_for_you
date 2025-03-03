@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script type="module" src="./src/main.ts" defer></script>
+    <title>Movies for you</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <h1>Movie for you</h1>
+        <div class="bar">
+          <button class="year-asc">Year up</button>
+          <button class="year-desc">Year down</button>
+          <button class="rate">Best Rate</button>
+          <select class="genreFilter"></select>
+          <button class="filterGenreBtn">Filtern</button>
+
+          <input type="text" placeholder="search..." />
+          <button class="search-btn">Search</button>
+        </div>
+      </nav>
+      <div class="movie"></div>
+    </div>
+  </body>
+</html>
